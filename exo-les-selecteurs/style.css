@@ -1,0 +1,43 @@
+section {
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+h4:first-of-type {
+    color: blue;
+}
+
+/* ---------------------------------- exo2 ---------------------------------- */
+
+section:nth-child(2) {
+    border-bottom: 5px solid red;
+}
+
+/* ---------------------------------- exo 3 --------------------------------- */
+section:nth-child(3)>h3,
+section:nth-child(3) li {
+    color: red;
+}
+
+/* ---------------------------------- exo 4 --------------------------------- */
+section:nth-child(4)>ul>li:nth-child(2) {
+    font-size: 25px;
+}
+
+/* ---------------------------------- exo 5 --------------------------------- */
+
+section:nth-child(5)> h3 + span {
+    color: blue;
+}
+
+/* ---------------------------------- exo 6 --------------------------------- */
+
+img {
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+/* ---------------------------------- exo 7 --------------------------------- */
+section:last-of-type:hover {
+    color: green;
+}
